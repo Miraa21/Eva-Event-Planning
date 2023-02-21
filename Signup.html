@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Signup</title>
+    <link rel="icon" href="icons/favicon.ico" />
+
+    <link rel="stylesheet" href="css/Signup.css" />
+    <script src="javascript/signup.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/2565bea48f.js"
+      crossorigin="anonymous"
+    ></script>
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Eva Planning</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Signin.html">Reserve</a>
+            </li>
+          </ul>
+          <span class="navbar-text"> The best place for your event </span>
+        </div>
+      </div>
+    </nav>
+    <form class="input-data" onsubmit="handleSubmit(event)">
+      <i class="fa fa-user icon"></i>
+      <input
+        class="input"
+        type="text"
+        name="firstName"
+        placeholder="First Name"
+      />
+      <br />
+      <i class="fa fa-user icon"></i>
+      <input
+        class="input"
+        type="text"
+        name="lastName"
+        placeholder="Last Name"
+      />
+      <br />
+      <i class="fa fa-envelope icon"></i>
+      <input
+        class="input"
+        type="email"
+        name="email"
+        placeholder="Email"
+      />
+      <br />
+      <i class="fa fa-phone icon"></i>
+      <input
+        class="input"
+        type="text"
+        name="phone"
+        placeholder="Phone Number"
+      />
+      <br />
+      <i class="fa fa-lock icon"></i>
+      <input
+        class="input"
+        type="password"
+        name="password"
+        placeholder="Password"
+      />
+      <br />
+      <i class="fa fa-lock icon"></i>
+      <input
+        class="input"
+        type="password"
+        name="passwordConfirm"
+        placeholder="Re-Enter Password"
+      />
+      <br />
+
+      <input
+        class="Submit"
+        type="submit"
+        value="Sign up"
+      >
+        
+      </button>
+      <a class="link" href="Signin.html">Already have an account?</a>
+    </form>
+    <img
+      src="images/Ballons.jpeg"
+      alt="Cinque Terre"
+      width="1000"
+      height="300"
+    />
+
+    <footer id="footer">
+      <div class="social-icons">
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-facebook-square"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon far fa-envelope"></i>
+        <p class="copyright">© Copyright 2021 Eva Planning</p>
+      </div>
+    </footer>
+  </body>
+</html>

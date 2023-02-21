@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign in</title>
+    <link rel="icon" href="icons/favicon.ico" />
+
+    <link rel="stylesheet" href="css/Signin.css" />
+    <script src="javascript/reserve.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2565bea48f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Eva Planning</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Reserve.html">Reserve</a>
+            </li>
+          </ul>
+          <span class="navbar-text">The best place for your event </span>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+
+    <div class="Login-text">
+      <h1>Welcome, Let's start creating the event of your life.</h1>
+    </div>
+
+    <br /><br />
+
+    <div class="form-div">
+      <form class="form-input" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label> Event type :</label><br/>
+          <select name="event">
+            <option value="Wedding">Wedding</option>
+            <option value="Birthday Party">Birthday Party</option>
+            <option value="Birthday shower">Birthday shower</option>
+            <option value="Bachelor party">Bachelor party</option>
+            <option value="Farewell">Farewell</option>
+            <option value="Evening party">Evening party</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Date :</label><br/> 
+          <input type="date" name="date" />
+        </div>
+        <div class="form-group">
+          <label>Venue :</label><br/>
+          <select name="venue">
+            <option value="Four Seasons">Four Seasons</option>
+            <option value="Hilton">Hilton</option>
+            <option value="Azur">Azur</option>
+            <option value="Tolip">Tolip</option>
+            <option value="Greek Club">Greek Club</option>
+            <option value="Sheraton">Sheraton</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>DJ :</label><br/>
+          <input type="radio" name="dj" value="Pianist" /> Pianist
+          <input type="radio" name="dj" value="Band" /> Band
+          <input type="radio" name="dj" value="Artist" /> Artist
+        </div>
+        <div class="form-group">  
+          <label>Decorations :</label><br/>
+          <input type="radio" name="decoration" value="decoration" /> Baisc
+          <input type="radio" name="decoration" value="decoration" /> Deluxe
+        </div>
+        <div class="form-group"> 
+          <label>Catering :</label><br/>
+          <input type="radio" name="catering" value="Mcdonald's" /> Mcdonald's
+          <input type="radio" name="catering" value="La poire" /> La poire
+          <input type="radio" name="catering" value="Classique" /> Classique
+          <input type="radio" name="catering" value="Brew & Chew" /> Brew & Chew
+          <input type="radio" name="catering" value="Bouchee" /> Bouchee
+        </div>
+        <div class="form-group">
+          <label>Photographers :</label><br/>
+          <input type="radio" name="photographers" value="Momento Studio" /> Momento Studio
+          <input type="radio" name="photographers" value="Ghazal" /> Ghazal
+          <input type="radio" name="photographers" value="Farah Studio" /> Farah Studio
+        </div>
+        <input type="submit" />
+      </form>
+    </div>
+
+    <img class="img-form" src="images/Signin-image.jpeg" alt="" />
+
+    <footer id="footer">
+      <div class="social-icons">
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-facebook-square"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon far fa-envelope"></i>
+        <p class="copyright">© Copyright 2021 Eva Planning</p>
+      </div>
+    </footer>
+  </body>
+</html>

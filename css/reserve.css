@@ -1,0 +1,76 @@
+body {
+  font-family: "Lobster";
+  font-weight: 900;
+}
+
+button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30%;
+  background-color: #ef8172;
+}
+
+button:hover {
+  background-color: red;
+}
+
+form {
+  padding: 30px;
+  margin-left: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  margin-left: 200px;
+  width: 500px;
+  height: 400px;
+}
+
+.img-form {
+  margin-left: 1200px;
+  width: 500px;
+  height: 400px;
+}
+
+.input-data {
+  width: 30%;
+}
+
+/*                                Navigation Bar                              */
+.nav-item {
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 200px;
+}
+
+.navbar-brand {
+  font-family: "Lobster";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/*                                         Form                               */
+.Login-text {
+  text-align: center;
+  background-color: #ef8172;
+  padding: 50px;
+}
+
+/*                                         Footer                             */
+#footer {
+  padding: 2% 15%;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+
+.copyright {
+  color: #8f8f8f;
+  font-family: sans-serif;
+}
+
+.social-icon {
+  margin: 10px 5px;
+}
+/* .form-div{
+  width: 100px;
+} */

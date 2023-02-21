@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Eva Planning</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://kit.fontawesome.com/2565bea48f.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="icons/favicon.ico">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Eva Planning</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Signin.html">Reserve</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              The best place for your event
+            </span>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Let us make your special day magical.</h1>
+          <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='Signin.html'"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+          <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='Signup.html'"><i class="fas fa-user-plus"></i> Sign up</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="wedding-image-title title-image" src="images/wedding-image.jpg" alt="beach wedding image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="features">
+
+    <div class="container testimonial-grid">
+
+      <div class="row">
+
+        <div class="col col-lg-4 col-md-12 col-sm-12">
+          <i class="fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Quick and reliable</h3>
+          <p class="testimonials">We will get your event up and running in no time.</p>
+        </div>
+
+        <div class="col col-lg-4 col-md-12 col-sm-12">
+          <i class="fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Service</h3>
+          <p class="testimonials">We aim at making your day just as you imagined.</p>
+        </div>
+
+        <div class="col col-lg-4 col-md-12 col-sm-12">
+          <i class="fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">We do it with our heart.</h3>
+          <p class="testimonials">We take care of all of the details just as you would do.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="testimonials">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Our wedding was absolutley magical, could never had done it without eva</h2>
+          <img src="images/Wedding-sea.jpg">
+          <em>Jessie , Miami USA</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">This years graduation party for my students was outstanding.</h2>
+          <img src="images/School graduation.jpg" styles="width:500px;">
+          <em>Mr.Jacob , Florida USA</em>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+
+  </section>
+
+
+  <section id="pricing">
+
+    <h2 class="pricing-heading">Most Wanted events and their pricings</h2>
+    <p>Simple and affordable price plans for your and your partner.</p>
+
+    <div class="row">
+
+      <div class="column col-lg-4 col-md-6">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Birthdays</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Starting from 500$</h2>
+            <p>Cake is on us</p>
+            <p>Balloons</p>
+            <p>Confetti</p>
+            <p>Optional Shows</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="column col-lg-4 col-md-6">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Evening party</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Starting from 700$</h2>
+            <p>Standing tables and chairs</p>
+            <p>Drinks and snacks</p>
+            <p>DJ & light effects</p>
+            <p>Dance stage set-up</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-lg-4">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Weddings</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Starting from 2000$</h2>
+            <p>Wedding style tables and chairs</p>
+            <p>Buffet and drinks</p>
+            <p>DJ & Dance stage</p>
+            <p>Light Effects</p>
+            <p>Fire work show</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Let us create the perfect day for you.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button">Contact Us</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button">Reserve</button>
+
+  </section>
+
+
+
+  <footer id="footer">
+    <div class="social-icons">
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook-square"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon far fa-envelope"></i>
+      <p class="copyright">© Copyright 2021 Eva Planning</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
